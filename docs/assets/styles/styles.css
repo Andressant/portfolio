@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a:visited,
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+ion-icon:hover {
+    color: #F21D56;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 2.4rem;
+    margin-right: 20px;
+}
+
+.large-hero {
+    position: relative;
+    background: url(../images/bg.svg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.large-hero__block {
+    width: 90%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.large-hero::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.large-hero__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1.2em;
+}
+
+.large-hero__icons {
+    margin-bottom: 2em;
+}
+
+.large-hero__works {
+    margin-bottom: 0.5em;
+}
+
+.large-hero__works_block {
+    color: #F216A5;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.large-hero__spider {
+    margin-bottom: 0.5em;
+    text-shadow: 0 2px 3px rgb(46, 151, 242);
+}
+
+.large-hero__spider a:visited,
+.large-hero__spider a:link {
+    color: #F216A5;
+}
+
+.large-hero__spfc {
+    text-shadow: 0 2px 3px rgba(246, 73, 167, .5)
+}
+
+.large-hero__spfc a:visited,
+.large-hero__spfc a:link {
+    color: #F21D56;
+}
+
+.large-hero__spider a:hover,
+.large-hero__spfc a:hover {
+    text-decoration: underline;
+}
+
+.freepik {
+    color: rgba(255, 255, 255, 0.535);
+    font-size: 8px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.freepik a:visited,
+.freepik a:link {
+    color: rgba(255, 255, 255, 0.161);
+}
+
+@media only screen and (min-width: 767px) {
+
+    .large-hero__text {
+        font-size: 2.5rem;
+        font-weight: normal;
+        margin-bottom: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .large-hero__text {
+        font-size: 3rem;
+        margin-bottom: 0.5em;
+        max-width: 80%;
+    }
+
+    .large-hero__block {
+        top: 60%;
+        left: 50%;
+    }
+
+    .large-hero__icons,
+    .large-hero__works,
+    .large-hero__works_block {
+        text-align: right;
+    }
+
+    .btn {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+}
