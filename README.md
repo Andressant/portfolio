@@ -1,2 +1,2 @@
 # portfolio
-Portifólio André Fernandes
+Portfólio André Fernandes
